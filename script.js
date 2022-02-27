@@ -12,6 +12,7 @@ function compute()
     if(parseInt(amount) <= 0 || amount ==='')
     {
         alert("Enter a Positive Number");
+        document.getElementById("principal").focus()
         
     }else
     {
