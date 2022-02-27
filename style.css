@@ -1,4 +1,59 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:#000;}
+
+
+
+h1{
+    color:#FFC300;
+    text-align: center;
+    
+}
+
+hr{
+    padding: 20px;
+    border: 0px;
+    border-top: 5px solid #5463FF  ;
+}
+
+.form{
+ background-color: #ECECEC;
+ width: 60%;
+ padding: 30px;
+ margin: auto;
+ margin-top: 10%;
+ padding: 5px 15px 15px 20px;
+ border-radius: 15px;
+}
+
+label{
+    width:100px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+button{
+    background: #5463FF;
+    border: none;
+    box-shadow: 3px 3px rgba(255, 195, 0, 1);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ECECEC;
+    margin: 0; 
+}
+
+button:hover{
+    background: #5490ff;
+}
+
+button:active{
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px rgba(255, 195, 0, 1);
+ 
+}
+
+p{
+    font-weight: 700;
+}
+
 
 
